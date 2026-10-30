@@ -1,0 +1,164 @@
+
+# ==========================================
+# Python
+# ==========================================
+
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+*.pyd
+*.dll
+
+# Build / distribution
+build/
+dist/
+site/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python packaging
+.installed.cfg
+MANIFEST
+
+# ==========================================
+# Virtual environments
+# ==========================================
+
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+.python-version.local
+
+# ==========================================
+# PyCharm / JetBrains
+# ==========================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ==========================================
+# Environment variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets.json
+secrets.yaml
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+test-results/
+coverage.xml
+nosetests.xml
+junit.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ==========================================
+# Type checking / Linters
+# ==========================================
+
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Logs / Runtime
+# ==========================================
+
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# ==========================================
+# Local databases
+# ==========================================
+
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.db-journal
+
+# ==========================================
+# Django / Flask
+# ==========================================
+
+local_settings.py
+instance/
+.webassets-cache/
+staticfiles/
+media/
+
+# ==========================================
+# Celery
+# ==========================================
+
+celerybeat-schedule
+celerybeat.pid
+
+# ==========================================
+# OS files
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.cache/
+tmp/
+temp/
